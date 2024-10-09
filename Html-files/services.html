@@ -192,6 +192,48 @@ body{
     color: hsl(203, 30%, 50%); /* Change to a darker color for contrast on hover */
  color: hsl(203, 30%, 50%); 
 }
+.home-testimonial{background-color: #231834;height: 380px}
+.home-testimonial-bottom{
+background-color: #f8f8f8;
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+margin-top: 20px;
+margin-bottom: 0px;
+position: relative;
+height: 130px;top: 190px
+}
+.home-testimonial h3{
+color: var(--orange);
+font-size: 14px;
+font-weight: 500;
+text-transform: uppercase}
+.home-testimonial h2{color: white;
+font-size: 28px;
+font-weight: 700}
+.testimonial-inner{
+position: relative;
+top: -174px}
+.testimonial-pos{position: relative;
+top: 24px}
+.testimonial-inner .tour-desc{
+border-radius: 5px;
+padding: 40px}
+.color-grey-3{font-family: "Montserrat", Sans-serif;
+font-size: 14px;
+color: #6c83a2}
+.testimonial-inner img.tm-people{
+width: 60px;height: 60px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+-o-object-fit: cover;
+object-fit: cover;
+max-width: none}
+.link-name{
+font-family: "Montserrat", Sans-serif;
+font-size: 14px;color: #6c83a2}
+.link-position{
+font-family: "Montserrat", Sans-serif;font-size: 12px;
+color: #6c83a2
+}
     </style>
 
 </head>
@@ -304,126 +346,66 @@ body{
             </div>
         </div>
 
-        <section class="service_container">
-
-            <section class="testimonalsection" id="testimonal">
-                <h2 class=section__title
-                    style="font-family: var(--ff-philosopher);color: hsl(357, 82%,35%);">Customer
-                    Opinion</h2>
-                <!-- <div class="main-cards"> -->
-                <div class="testimonal__container">
-                    <div class="testimonal__swiper">
-                        <!-- <div class="column"> -->
-                        <div class="cards">
-                            <article class="testimonal__card">
-                                <img
-                                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
-                                    alt class="testimonal__image">
-                                <h2 class="testimonal__title"
-                                    style="font-family: var(--ff-philosopher);color: hsl(203, 30%, 26%);">Riya
-                                    Jain</h2>
-                                <p class="testimonal__description"
-                                    style="font-family: var(--ff-poppins);color: hsl(208, 7%,46%);">
-                                    Wide selection of items.It's nice website
-                                    for vintage collection lovers.
-                                </p>
-
-                                <div class="testimonal__stars"
-                                    style="color: yellow;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </article>
+        <section class="home-testimonial">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center testimonial-pos">
+            <div class="col-md-12 pt-4 d-flex justify-content-center">
+                <h3>Testimonials</h3>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+                <h2>Our Customers’ Experience</h2>
+            </div>
+        </div>
+        <section class="home-testimonial-bottom">
+            <div class="container testimonial-inner">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;Retro is a paradise for vintage lovers! The selection of items takes me back in time and helps me rediscover the magic of bygone eras. Highly recommended for anyone who values timeless style.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt="Riya Jain"></div>
+                                <div class="link-name d-flex justify-content-center">Riya Jain</div>
+                                <div class="link-position d-flex justify-content-center">Vintage Enthusiast</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="testimonal__swiper">
-                        <div class="cards">
-                            <article class="testimonal__card">
-                                <img
-                                    src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
-                                    alt class="testimonal__image">
-                                <h2 class="testimonal__title"
-                                    style="font-family: var(--ff-philosopher);color: hsl(203, 30%, 26%);">Sudhanshu
-                                    Sharma</h2>
-                                <p class="testimonal__description"
-                                    style="font-family: var(--ff-poppins);color: hsl(208, 7%,46%);">
-                                    Must purchase the items in the website. Very Nice, Good Products!
-                                </p>
-
-                                <div class="testimonal__stars"
-                                    style="color: yellow;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </article>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;I was amazed by the variety of classic items available on the Retro website. It brings the past to life with its carefully curated collections. A must-visit for anyone with a love for nostalgia!&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Sudhanshu Sharma"></div>
+                                <div class="link-name d-flex justify-content-center">Sudhanshu Sharma</div>
+                                <div class="link-position d-flex justify-content-center">Customer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;From retro tech to nostalgic designs, Retro delivers not just products but memories. Their delivery service is efficient, and they always have exciting offers. I can’t wait to shop again!&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Angel Dravid"></div>
+                                <div class="link-name d-flex justify-content-center">Angel Dravid</div>
+                                <div class="link-position d-flex justify-content-center">Happy Shopper</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="main-cards"> -->
-                <div class="testimonal__container upper">
-                    <div class="testimonal__swiper">
-                        <!-- <div class="column-2"> -->
-                        <div class="cards">
-                            <article class="testimonal__card">
-                                <img
-                                    src="https://blogs.kcl.ac.uk/editlab/files/2017/04/Elena-2-Cropped-200x2801.jpg"
-                                    alt
-                                    class="testimonal__image">
-                                <h2 class="testimonal__title"
-                                    style="font-family: var(--ff-philosopher);color: hsl(203, 30%, 26%);">Angel
-                                    Dravid</h2>
-                                <p class="testimonal__description"
-                                    style="font-family: var(--ff-poppins);color: hsl(208, 7%,46%);">
-                                    Good delivery and offers.Good Service.Must
-                                    checkout.
-                                </p>
-
-                                <div class="testimonal__stars"
-                                    style="color: yellow;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="testimonal__swiper">
-                        <div class="cards">
-                            <article class="testimonal__card">
-                                <img
-                                    src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B"
-                                    alt class="testimonal__image">
-                                <h2 class="testimonal__title"
-                                    style="font-family: var(--ff-philosopher);color: hsl(203, 30%, 26%);">Priya
-                                    Sharma</h2>
-                                <p class="testimonal__description"
-                                    style="font-family: var(--ff-poppins);color: hsl(208, 7%,46%);">
-                                    Nice offer above $5000.The items are very
-                                    delicious.
-                                </p>
-
-                                <div class="testimonal__stars"
-                                    style="color: yellow;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </article>
+                <div class="row d-flex justify-content-center mt-4">
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;Retro’s special offers and their incredible selection make it the perfect place for vintage collectors like me. I especially loved their discounts on larger purchases!&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4588016/pexels-photo-4588016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Priya Sharma"></div>
+                                <div class="link-name d-flex justify-content-center">Priya Sharma</div>
+                                <div class="link-position d-flex justify-content-center">Collector</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+</section>
 
-            </section>
             <div class="second_cont" style="font-family: Garamond;">
                 <div class="deals">
                     <i class="fa-solid fa-gift"></i>
